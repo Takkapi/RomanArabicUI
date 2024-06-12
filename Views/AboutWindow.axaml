@@ -1,0 +1,18 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Width="300" Height="350" CanResize="False"
+        x:Class="RomanArabicUI.AboutWindow"
+        Title="AboutWindow">
+  
+  <StackPanel>
+    <Label FontSize="20" HorizontalAlignment="Center">Roman Arabic Convertor UI</Label>
+    <TextBlock FontSize="14" HorizontalAlignment="Center" Foreground="Gray" Text="Version: 0.0.1"/>
+    <TextBlock Text="A simple GUI roman/arabic number convertor"/>
+    <TextBlock FontSize="16" Text="GUI Framework: Avalonia" />
+    <TextBlock />
+    <TextBlock FontSize="16" Text="RomanArabicConverter(@liliachicu)" />
+    <TextBlock FontSize="12" Text="https://github.com/liliachicu/RomanArabicRepo" />
+  </StackPanel>
+</Window>
